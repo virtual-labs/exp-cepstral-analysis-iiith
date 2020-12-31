@@ -24,9 +24,9 @@ Figure 2: Section of a speech signal for vowel /a/.
 For a speech segment of duration 25 ms shown in Figure 2, the magnitude response and the corresponding real cepstrum are shown in Figure 3 (a) and 3 (b) respectively. The local peaks which correspond to harmonics (due to quasi periodic vocal folds vibrations) in Figure 3 (a) represent the high quefrency regions in the cepstrum shown in Figure 3 (b). The global peaks of the envelope of the magnitude spectrum (resonances of the vocal tract system) represent the low quefrency regions in the cepstrum. Note that the cepstrum shows a peak at around the time lag corresponding to the pitch period for segments of voiced speech.
 
 As the cepstrum has the additive property, the resonances corresponding to the vocal tract system are obtained by liftering and applying Fourier transform on initial few samples of cepstrum. The low quefrency region of the cepstrum and its liftered spectrum are shown in Figure 4 (a) and 4 (b) respectively. It can be seen that the spectral characteristics corresponding to the filter (vocal-tract system) can be clearly observed. Similarly, Figure 5 shows the high quefrency liftered cepstrum with the corresponding spectrum. The spectrum shows the periodic structure that normally overrides the speech spectrum.
-<center><img src="images/spectrum.png"> <br></p> </center>
-	
+<center><img src="images/spectrum.png"> <br></p> </center>	
 (a)
+
 <center><img src="images/cepstrum.png"> <br></p> </center>	
 (b)
 Figure 3: (a) Log spectrum, and corresponding (b) cepstrum of the segment shown in Figure 2.
@@ -35,14 +35,12 @@ Figure 3: (a) Log spectrum, and corresponding (b) cepstrum of the segment shown 
 (a)
 <center><img src="images/spectrumlq.png"> <br></p> </center>
 (b)
-
 Figure 4: (a) Low quefrency liftering of the cepstrum and the corresponding (b) liftered Log spectrum
-<center><img src="images/cepstrumhq.png"> <br></p> </center>
-	
-(a)
+
 <center><img src="images/cepstrumhq.png"> <br></p> </center>	
+(a)
+<center><img src="images/spectrumhq.png"> <br></p> </center>	
 (b)
-<center><img src="images/spectrumhq.png"> <br></p> </center>
 Figure 5: (a) High quefrency liftering of the cepstrum and the corresponding (b) liftered Log spectrum
 
 
