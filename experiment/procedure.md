@@ -1,6 +1,3 @@
-### Procedure
-
-
 - Step1: Study the cepstrum for different regions (voiced/unvoiced/silence) of the speech signal using the examples provided.
 
        - Select one of the example audio/waveforms file provided and click on the 'Generate Spectrum' button.
