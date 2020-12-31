@@ -27,22 +27,22 @@ As the cepstrum has the additive property, the resonances corresponding to the v
 <center><img src="images/spectrum.png"> <br></p> </center>
 	
 (a)
-	
+<center><img src="images/cepstrum.png"> <br></p> </center>	
 (b)
 Figure 3: (a) Log spectrum, and corresponding (b) cepstrum of the segment shown in Figure 2.
 
-	
-(a)
-	
-(b)
 <center><img src="images/cepstrumlq.png"> <br></p> </center>
-Figure 4: (a) Low quefrency liftering of the cepstrum and the corresponding (b) liftered Log spectrum
+(a)
+<center><img src="images/spectrumlq.png"> <br></p> </center>
+(b)
 
+Figure 4: (a) Low quefrency liftering of the cepstrum and the corresponding (b) liftered Log spectrum
+<center><img src="images/cepstrumhq.png"> <br></p> </center>
 	
 (a)
-	
+<center><img src="images/cepstrumhq.png"> <br></p> </center>	
 (b)
-<center><img src="images/cepstrumhq.png"> <br></p> </center>
+<center><img src="images/spectrumhq.png"> <br></p> </center>
 Figure 5: (a) High quefrency liftering of the cepstrum and the corresponding (b) liftered Log spectrum
 
 
