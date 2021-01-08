@@ -36,7 +36,7 @@ function changeLiftered() {
   var clone = source.cloneNode(true);
   clone.setAttribute(
     "src",
-    "/graphs/liftered/LifteredLog-wav" +
+    "graphs/liftered/LifteredLog-wav" +
       document.getElementById("audionum").value +
       ".html"
   );
@@ -49,7 +49,7 @@ function changeCepstrum() {
   var clone = source.cloneNode(true);
   clone.setAttribute(
     "src",
-    "/graphs/cepstrum/cepstrum-wav" +
+    "graphs/cepstrum/cepstrum-wav" +
       document.getElementById("audionum").value +
       ".html"
   );
@@ -62,7 +62,7 @@ function changeSpectrum(elem) {
   var clone = source.cloneNode(true);
   clone.setAttribute(
     "src",
-    "/graphs/windowed/line-" +
+    "graphs/windowed/line-" +
       document.getElementById("audionum").value +
       "-" +
       elem +
@@ -77,7 +77,7 @@ function changefft(elem) {
   var clone = source.cloneNode(true);
   clone.setAttribute(
     "src",
-    "/graphs/logspectrum/stft-wav" +
+    "graphs/logspectrum/stft-wav" +
       document.getElementById("audionum").value +
       "-nfft" +
       elem +
@@ -114,10 +114,10 @@ function LoadAudio(elem) {
   source.parentNode.replaceChild(clone, source);
 
   if (elem.value == 1 || elem.value == 2) {
-    wavesurfer.load("/static/wav/audio" + elem.value + ".wav");
+    wavesurfer.load("static/wav/audio" + elem.value + ".wav");
     console.log(elem.value);
   } else {
-    wavesurfer.load("/static/wav/audio2.wav");
+    wavesurfer.load("static/wav/audio2.wav");
     console.log(elem.value);
   }
 }
